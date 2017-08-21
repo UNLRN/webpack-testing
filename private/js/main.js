@@ -1,3 +1,7 @@
 import '../sass/style.scss';
 
-console.log( 'im awake - its morning' );
+console.log( 'im wide awake - its morning' );
+
+if(module.hot) {
+    module.hot.accept()
+}
